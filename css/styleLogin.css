@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body{
+    background-image: url(./assets/backgorund.png);
+    background-attachment: fixed;
+}
+
+*{
+    font-family: 'Courgette', cursive;
+}
+
+.threeButons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.butonTop{
+    padding: 4px;
+    background-color: #874C62;
+    border-radius: 10px;
+    margin: 1px;
+}
+
+h1{
+    font-size: 44px;
+    color: #F2D388;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.centerZOne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boxHeading{
+    display: flex;
+    
+}
+.logoImg{
+    width: 280px;
+}
+
+
+.pasteles{
+    width: 130px;
+}
+
+.areaUpdate{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: x-large;
+    color: #F2D388;
+    padding: 1px;
+    background-color:  #874c62b7;
+    border-radius: 20px;  
+    text-align: center;  
+    align-items: center;
+    margin: 2px;
+}
+
+.containerFields{
+    display: flex;
+    flex-direction: column;
+}
+.btn-form{
+    margin: 16px;
+    padding: 12px;
+    color: #A7D2CB;
+    background: #874C62;
+    border-radius: 16px;
+    border: #F2D388;
+    font-size: large;
+}
+
+.ingredients{
+    margin: auto;
+}
+
+.preFooter{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: larger;
+}
+.footer{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#874C62;
+}
+
+.figButon{
+    background-color: #874C62;
+    border-radius: 10px;
+}
+
+figcaption{
+    padding: 20px;
+    margin: auto;
+    color: #F2D388;
+    text-align: center;
+    font-size: x-large;
+}
+figure{
+    margin: auto;
+}
+p{
+    margin: 10px;
+    padding: 2px;
+}
+a{
+    color: #A7D2CB;
+}
